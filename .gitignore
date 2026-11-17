@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.log
+.scratch/
+Personagens/
+Output/
