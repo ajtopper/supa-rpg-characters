@@ -18,6 +18,20 @@ Skill para **Antigravity** e agentes compatíveis que transforma listas de promp
 
 ![Mestre e quatro jogadores se divertindo na mesa de RPG](./assets/rpg-table.jpg)
 
+### Como usar a skill passo a passo
+
+1. **Organize as imagens de referência em `Personagens/`:**
+   Coloque as artes dos seus personagens (`.png`, `.jpg`, `.jpeg` ou `.webp`) na pasta `Personagens/` na raiz do seu projeto — seja em arquivos diretos (`Komira.png`, `Brokk_01.png`, `Brokk_02.png`) ou em subpastas por personagem (`Personagens/Valtharion/frente.png`).
+2. **Envie seu roteiro ou lista de cenas no chat:**
+   Invoque `/supa-rpg-characters` colando os prompts diretamente na conversa ou informando o caminho de um arquivo `.txt` ou `.md` com as cenas da sessão (inclusive com versões em português e inglês).
+   ```text
+   /supa-rpg-characters Gere as ilustrações das cenas em ./roteiro-sessao.md no estilo anime cinematic (16:9)
+   ```
+3. **Revise e aprove o plano de geração:**
+   Antes de gerar qualquer imagem, a skill monta uma tabela ligando cada cena aos personagens encontrados, às referências em `Personagens/` e aos arquivos numerados que serão criados em `Output/`. Aprove o plano ou peça ajustes de proporção (`16:9`, `3:4`, `1:1`), estilo, idioma-base ou referências.
+4. **Receba as ilustrações em `Output/` e refine se precisar:**
+   Com o plano aprovado, as cenas são geradas em lotes paralelos preservando a identidade visual de cada personagem e salvas em `Output/`. Quer mudar algum detalhe? Basta pedir pelo número da cena (ex.: *"Refaça a cena 03 deixando a iluminação mais escura"*).
+
 ## Estrutura esperada no seu projeto de RPG
 
 ```text
